@@ -1,0 +1,7 @@
+[
+	{"kind": "early", "start": "2024-10-04"},
+	{"kind": "half", "start": "2024-10-18"},
+	{"kind": "holiday", "start": "2024-11-05"},
+	{"kind": "break", "start": "2024-11-25", "end": "2024-11-29"},
+	{"kind": "break", "start": "2024-12-23", "end": "2024-1-5"}
+]
