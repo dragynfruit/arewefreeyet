@@ -63,10 +63,10 @@
 		// Calculate diff between event start and current time
 		let countdown = next["start"].getTime() - curr_time;
 
-		var days = Math.floor(countdown / (1000 * 60 * 60 * 24));
-  	var hours = Math.floor((countdown % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  	var minutes = Math.floor((countdown % (1000 * 60 * 60)) / (1000 * 60));
-  	var seconds = Math.floor((countdown % (1000 * 60)) / 1000);
+		let days = Math.floor(countdown / (1000 * 60 * 60 * 24));
+		let hours = Math.floor((countdown % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+		let minutes = Math.floor((countdown % (1000 * 60 * 60)) / (1000 * 60));
+		let seconds = Math.floor((countdown % (1000 * 60)) / 1000);
 
 		// Timestamp for end of the current day
 		var currDayEnd = new Date(curr_time);
