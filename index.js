@@ -79,9 +79,10 @@
 		eventDayStart.setMinutes(NORMAL_START.min);
 
 		document.getElementById('countdown').innerText = (days == 0)
-			? (curr_time > currDayEnd && curr_time < eventDayStart)
-				? 'Tomorrow'
-				: `${hours} hours, ${minutes} minutes, ${seconds} seconds`
+			//? (curr_time > currDayEnd && curr_time < eventDayStart)
+			//	? 'Tomorrow'
+			//	: `${hours} hours, ${minutes} minutes, ${seconds} seconds`
+			? `${hours} hours, ${minutes} minutes, ${seconds} seconds`
 			: `${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds`;
 
 		document.getElementById('encouragement').hidden = (curr_time > currDayEnd && curr_time < eventDayStart);
